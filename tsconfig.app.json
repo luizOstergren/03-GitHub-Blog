@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "jsx": "react-jsx",
+        // ...
+        "baseUrl": ".",
+        "paths": {
+            "react": [
+                "./node_modules/@types/react"
+            ]
+        }
+        // ...
+    }
+}
